@@ -4,8 +4,8 @@ TrainStatus is a chatbot enables users to query about real time status of London
 ## Prerequisites:
 1. Install Node.js.
 2. Install the SDK by running the following commands on command line:
-  ..* npm install --save botbuilder
-  ..* npm install --save restify
+  $ npm install --save botbuilder
+  $ npm install --save restify
 3. Install the [bot emulator](https://github.com/Microsoft/BotFramework-Emulator/releases/tag/v3.5.31 "Microsoft Bot Emulator").
 
 
@@ -13,7 +13,7 @@ TrainStatus is a chatbot enables users to query about real time status of London
 1. Download or clone this folder.
 2. Open the command prompt.
 3. Navigate to the directory of this folder you just downloaded.
-4. To start the bot, run 'node app.js'
+4. To start the bot, run $node app.js
 5. Open the bot emulator.
 6. Type http://localhost:3978/api/messages into the address bar. (This is the default endpoint that your bot listens to when hosted locally.)
 7. Click Connect. You won't need to specify Microsoft App ID and Microsoft App Password.
