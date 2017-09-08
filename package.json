@@ -1,0 +1,25 @@
+{
+  "name": "trainstatus",
+  "version": "1.0.0",
+  "description": "This is a chatbot which enables users to know about status on the London Underground, Overground, TFL Rail, and Trams.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maria-padilla/TrainStatus.git"
+  },
+  "author": "Maria Alexandra Padilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maria-padilla/TrainStatus/issues"
+  },
+  "homepage": "https://github.com/maria-padilla/TrainStatus#readme",
+  "dependencies": {
+    "await": "^0.2.6",
+    "axios": "^0.16.2",
+    "botbuilder": "^3.9.1",
+    "restify": "^5.2.0"
+  }
+}
